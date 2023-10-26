@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		386413BE2AEA33C100B0BFCA /* MathsNotebookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386413BD2AEA33C100B0BFCA /* MathsNotebookApp.swift */; };
+		386413C02AEA33C100B0BFCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386413BF2AEA33C100B0BFCA /* ContentView.swift */; };
+		386413C22AEA33C200B0BFCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 386413C12AEA33C200B0BFCA /* Assets.xcassets */; };
+		386413C52AEA33C200B0BFCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 386413C42AEA33C200B0BFCA /* Preview Assets.xcassets */; };
+		386413D02AEA33C300B0BFCA /* MathsNotebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386413CF2AEA33C300B0BFCA /* MathsNotebookTests.swift */; };
+		386413DA2AEA33C300B0BFCA /* MathsNotebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386413D92AEA33C300B0BFCA /* MathsNotebookUITests.swift */; };
+		386413DC2AEA33C300B0BFCA /* MathsNotebookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386413DB2AEA33C300B0BFCA /* MathsNotebookUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		386413CC2AEA33C300B0BFCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 386413B22AEA33C100B0BFCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 386413B92AEA33C100B0BFCA;
+			remoteInfo = MathsNotebook;
+		};
+		386413D62AEA33C300B0BFCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 386413B22AEA33C100B0BFCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 386413B92AEA33C100B0BFCA;
+			remoteInfo = MathsNotebook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		386413BA2AEA33C100B0BFCA /* MathsNotebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathsNotebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		386413BD2AEA33C100B0BFCA /* MathsNotebookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathsNotebookApp.swift; sourceTree = "<group>"; };
+		386413BF2AEA33C100B0BFCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		386413C12AEA33C200B0BFCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		386413C42AEA33C200B0BFCA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		386413C62AEA33C200B0BFCA /* MathsNotebook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MathsNotebook.entitlements; sourceTree = "<group>"; };
+		386413CB2AEA33C300B0BFCA /* MathsNotebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathsNotebookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		386413CF2AEA33C300B0BFCA /* MathsNotebookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathsNotebookTests.swift; sourceTree = "<group>"; };
+		386413D52AEA33C300B0BFCA /* MathsNotebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathsNotebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		386413D92AEA33C300B0BFCA /* MathsNotebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathsNotebookUITests.swift; sourceTree = "<group>"; };
+		386413DB2AEA33C300B0BFCA /* MathsNotebookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathsNotebookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		386413B72AEA33C100B0BFCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386413C82AEA33C300B0BFCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386413D22AEA33C300B0BFCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		386413B12AEA33C100B0BFCA = {
+			isa = PBXGroup;
+			children = (
+				386413BC2AEA33C100B0BFCA /* MathsNotebook */,
+				386413CE2AEA33C300B0BFCA /* MathsNotebookTests */,
+				386413D82AEA33C300B0BFCA /* MathsNotebookUITests */,
+				386413BB2AEA33C100B0BFCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		386413BB2AEA33C100B0BFCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				386413BA2AEA33C100B0BFCA /* MathsNotebook.app */,
+				386413CB2AEA33C300B0BFCA /* MathsNotebookTests.xctest */,
+				386413D52AEA33C300B0BFCA /* MathsNotebookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		386413BC2AEA33C100B0BFCA /* MathsNotebook */ = {
+			isa = PBXGroup;
+			children = (
+				386413BD2AEA33C100B0BFCA /* MathsNotebookApp.swift */,
+				386413BF2AEA33C100B0BFCA /* ContentView.swift */,
+				386413C12AEA33C200B0BFCA /* Assets.xcassets */,
+				386413C62AEA33C200B0BFCA /* MathsNotebook.entitlements */,
+				386413C32AEA33C200B0BFCA /* Preview Content */,
+			);
+			path = MathsNotebook;
+			sourceTree = "<group>";
+		};
+		386413C32AEA33C200B0BFCA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				386413C42AEA33C200B0BFCA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		386413CE2AEA33C300B0BFCA /* MathsNotebookTests */ = {
+			isa = PBXGroup;
+			children = (
+				386413CF2AEA33C300B0BFCA /* MathsNotebookTests.swift */,
+			);
+			path = MathsNotebookTests;
+			sourceTree = "<group>";
+		};
+		386413D82AEA33C300B0BFCA /* MathsNotebookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				386413D92AEA33C300B0BFCA /* MathsNotebookUITests.swift */,
+				386413DB2AEA33C300B0BFCA /* MathsNotebookUITestsLaunchTests.swift */,
+			);
+			path = MathsNotebookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		386413B92AEA33C100B0BFCA /* MathsNotebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 386413DF2AEA33C300B0BFCA /* Build configuration list for PBXNativeTarget "MathsNotebook" */;
+			buildPhases = (
+				386413B62AEA33C100B0BFCA /* Sources */,
+				386413B72AEA33C100B0BFCA /* Frameworks */,
+				386413B82AEA33C100B0BFCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathsNotebook;
+			productName = MathsNotebook;
+			productReference = 386413BA2AEA33C100B0BFCA /* MathsNotebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		386413CA2AEA33C300B0BFCA /* MathsNotebookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 386413E22AEA33C300B0BFCA /* Build configuration list for PBXNativeTarget "MathsNotebookTests" */;
+			buildPhases = (
+				386413C72AEA33C300B0BFCA /* Sources */,
+				386413C82AEA33C300B0BFCA /* Frameworks */,
+				386413C92AEA33C300B0BFCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				386413CD2AEA33C300B0BFCA /* PBXTargetDependency */,
+			);
+			name = MathsNotebookTests;
+			productName = MathsNotebookTests;
+			productReference = 386413CB2AEA33C300B0BFCA /* MathsNotebookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		386413D42AEA33C300B0BFCA /* MathsNotebookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 386413E52AEA33C300B0BFCA /* Build configuration list for PBXNativeTarget "MathsNotebookUITests" */;
+			buildPhases = (
+				386413D12AEA33C300B0BFCA /* Sources */,
+				386413D22AEA33C300B0BFCA /* Frameworks */,
+				386413D32AEA33C300B0BFCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				386413D72AEA33C300B0BFCA /* PBXTargetDependency */,
+			);
+			name = MathsNotebookUITests;
+			productName = MathsNotebookUITests;
+			productReference = 386413D52AEA33C300B0BFCA /* MathsNotebookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		386413B22AEA33C100B0BFCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					386413B92AEA33C100B0BFCA = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					386413CA2AEA33C300B0BFCA = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 386413B92AEA33C100B0BFCA;
+					};
+					386413D42AEA33C300B0BFCA = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 386413B92AEA33C100B0BFCA;
+					};
+				};
+			};
+			buildConfigurationList = 386413B52AEA33C100B0BFCA /* Build configuration list for PBXProject "MathsNotebook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 386413B12AEA33C100B0BFCA;
+			productRefGroup = 386413BB2AEA33C100B0BFCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				386413B92AEA33C100B0BFCA /* MathsNotebook */,
+				386413CA2AEA33C300B0BFCA /* MathsNotebookTests */,
+				386413D42AEA33C300B0BFCA /* MathsNotebookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		386413B82AEA33C100B0BFCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386413C52AEA33C200B0BFCA /* Preview Assets.xcassets in Resources */,
+				386413C22AEA33C200B0BFCA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386413C92AEA33C300B0BFCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386413D32AEA33C300B0BFCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		386413B62AEA33C100B0BFCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386413C02AEA33C100B0BFCA /* ContentView.swift in Sources */,
+				386413BE2AEA33C100B0BFCA /* MathsNotebookApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386413C72AEA33C300B0BFCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386413D02AEA33C300B0BFCA /* MathsNotebookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386413D12AEA33C300B0BFCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386413DA2AEA33C300B0BFCA /* MathsNotebookUITests.swift in Sources */,
+				386413DC2AEA33C300B0BFCA /* MathsNotebookUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		386413CD2AEA33C300B0BFCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 386413B92AEA33C100B0BFCA /* MathsNotebook */;
+			targetProxy = 386413CC2AEA33C300B0BFCA /* PBXContainerItemProxy */;
+		};
+		386413D72AEA33C300B0BFCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 386413B92AEA33C100B0BFCA /* MathsNotebook */;
+			targetProxy = 386413D62AEA33C300B0BFCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		386413DD2AEA33C300B0BFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		386413DE2AEA33C300B0BFCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		386413E02AEA33C300B0BFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MathsNotebook/MathsNotebook.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MathsNotebook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stephen.howe.MathsNotebook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		386413E12AEA33C300B0BFCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MathsNotebook/MathsNotebook.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MathsNotebook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stephen.howe.MathsNotebook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		386413E32AEA33C300B0BFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stephen.howe.MathsNotebookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathsNotebook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MathsNotebook";
+			};
+			name = Debug;
+		};
+		386413E42AEA33C300B0BFCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stephen.howe.MathsNotebookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathsNotebook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MathsNotebook";
+			};
+			name = Release;
+		};
+		386413E62AEA33C300B0BFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stephen.howe.MathsNotebookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MathsNotebook;
+			};
+			name = Debug;
+		};
+		386413E72AEA33C300B0BFCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stephen.howe.MathsNotebookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MathsNotebook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		386413B52AEA33C100B0BFCA /* Build configuration list for PBXProject "MathsNotebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386413DD2AEA33C300B0BFCA /* Debug */,
+				386413DE2AEA33C300B0BFCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		386413DF2AEA33C300B0BFCA /* Build configuration list for PBXNativeTarget "MathsNotebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386413E02AEA33C300B0BFCA /* Debug */,
+				386413E12AEA33C300B0BFCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		386413E22AEA33C300B0BFCA /* Build configuration list for PBXNativeTarget "MathsNotebookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386413E32AEA33C300B0BFCA /* Debug */,
+				386413E42AEA33C300B0BFCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		386413E52AEA33C300B0BFCA /* Build configuration list for PBXNativeTarget "MathsNotebookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386413E62AEA33C300B0BFCA /* Debug */,
+				386413E72AEA33C300B0BFCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 386413B22AEA33C100B0BFCA /* Project object */;
+}
