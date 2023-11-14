@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		382EF3182AF7641C00B23CE2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EF3172AF7641C00B23CE2 /* MainView.swift */; };
+		382EF31A2AF7647600B23CE2 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EF3192AF7647600B23CE2 /* InputView.swift */; };
+		382EF31D2AF7BBFF00B23CE2 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EF31C2AF7BBFF00B23CE2 /* Parser.swift */; };
+		382EF3212AFC558500B23CE2 /* InputWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EF3202AFC558500B23CE2 /* InputWebView.swift */; };
+		382EF3232AFE477800B23CE2 /* ExpressionSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EF3222AFE477800B23CE2 /* ExpressionSelectorView.swift */; };
+		382EF3252AFE47DB00B23CE2 /* RuleInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EF3242AFE47DB00B23CE2 /* RuleInputView.swift */; };
+		382EF3272AFED92000B23CE2 /* Predicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EF3262AFED92000B23CE2 /* Predicates.swift */; };
+		382EF32A2B039C1800B23CE2 /* ProofsAxiomSchemas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EF3292B039C1800B23CE2 /* ProofsAxiomSchemas.swift */; };
 		386413BE2AEA33C100B0BFCA /* MathsNotebookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386413BD2AEA33C100B0BFCA /* MathsNotebookApp.swift */; };
 		386413C02AEA33C100B0BFCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386413BF2AEA33C100B0BFCA /* ContentView.swift */; };
 		386413C22AEA33C200B0BFCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 386413C12AEA33C200B0BFCA /* Assets.xcassets */; };
@@ -14,6 +22,18 @@
 		386413D02AEA33C300B0BFCA /* MathsNotebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386413CF2AEA33C300B0BFCA /* MathsNotebookTests.swift */; };
 		386413DA2AEA33C300B0BFCA /* MathsNotebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386413D92AEA33C300B0BFCA /* MathsNotebookUITests.swift */; };
 		386413DC2AEA33C300B0BFCA /* MathsNotebookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386413DB2AEA33C300B0BFCA /* MathsNotebookUITestsLaunchTests.swift */; };
+		386413E92AEA341500B0BFCA /* ProofWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386413E82AEA341500B0BFCA /* ProofWebView.swift */; };
+		386413EB2AEA36D700B0BFCA /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 386413EA2AEA36D700B0BFCA /* index.html */; };
+		386413EE2AEA795700B0BFCA /* Expressions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386413ED2AEA795700B0BFCA /* Expressions.swift */; };
+		386413F02AEB339000B0BFCA /* Propositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386413EF2AEB339000B0BFCA /* Propositions.swift */; };
+		386413F22AEB502A00B0BFCA /* Proofs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386413F12AEB502A00B0BFCA /* Proofs.swift */; };
+		386413F42AED149D00B0BFCA /* ExpressionPrinters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386413F32AED149D00B0BFCA /* ExpressionPrinters.swift */; };
+		386413F62AEF458800B0BFCA /* ProofsRewriteRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386413F52AEF458800B0BFCA /* ProofsRewriteRules.swift */; };
+		386413F82AEF8DBB00B0BFCA /* Bindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386413F72AEF8DBB00B0BFCA /* Bindings.swift */; };
+		386413FB2AF34FA200B0BFCA /* CursorPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386413FA2AF34FA200B0BFCA /* CursorPadView.swift */; };
+		386413FE2AF4490200B0BFCA /* ProofSessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386413FD2AF4490200B0BFCA /* ProofSessions.swift */; };
+		387A2CCC2AF7068B000DA445 /* Parsing in Frameworks */ = {isa = PBXBuildFile; productRef = 387A2CCB2AF7068B000DA445 /* Parsing */; };
+		387A2CD02AF70B8D000DA445 /* SwiftParsec in Frameworks */ = {isa = PBXBuildFile; productRef = 387A2CCF2AF70B8D000DA445 /* SwiftParsec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		382EF3172AF7641C00B23CE2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		382EF3192AF7647600B23CE2 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		382EF31C2AF7BBFF00B23CE2 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		382EF3202AFC558500B23CE2 /* InputWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputWebView.swift; sourceTree = "<group>"; };
+		382EF3222AFE477800B23CE2 /* ExpressionSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionSelectorView.swift; sourceTree = "<group>"; };
+		382EF3242AFE47DB00B23CE2 /* RuleInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleInputView.swift; sourceTree = "<group>"; };
+		382EF3262AFED92000B23CE2 /* Predicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predicates.swift; sourceTree = "<group>"; };
+		382EF3292B039C1800B23CE2 /* ProofsAxiomSchemas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofsAxiomSchemas.swift; sourceTree = "<group>"; };
 		386413BA2AEA33C100B0BFCA /* MathsNotebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathsNotebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		386413BD2AEA33C100B0BFCA /* MathsNotebookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathsNotebookApp.swift; sourceTree = "<group>"; };
 		386413BF2AEA33C100B0BFCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +73,16 @@
 		386413D52AEA33C300B0BFCA /* MathsNotebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathsNotebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		386413D92AEA33C300B0BFCA /* MathsNotebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathsNotebookUITests.swift; sourceTree = "<group>"; };
 		386413DB2AEA33C300B0BFCA /* MathsNotebookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathsNotebookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		386413E82AEA341500B0BFCA /* ProofWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofWebView.swift; sourceTree = "<group>"; };
+		386413EA2AEA36D700B0BFCA /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		386413ED2AEA795700B0BFCA /* Expressions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expressions.swift; sourceTree = "<group>"; };
+		386413EF2AEB339000B0BFCA /* Propositions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Propositions.swift; sourceTree = "<group>"; };
+		386413F12AEB502A00B0BFCA /* Proofs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proofs.swift; sourceTree = "<group>"; };
+		386413F32AED149D00B0BFCA /* ExpressionPrinters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionPrinters.swift; sourceTree = "<group>"; };
+		386413F52AEF458800B0BFCA /* ProofsRewriteRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofsRewriteRules.swift; sourceTree = "<group>"; };
+		386413F72AEF8DBB00B0BFCA /* Bindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindings.swift; sourceTree = "<group>"; };
+		386413FA2AF34FA200B0BFCA /* CursorPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorPadView.swift; sourceTree = "<group>"; };
+		386413FD2AF4490200B0BFCA /* ProofSessions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofSessions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				387A2CD02AF70B8D000DA445 /* SwiftParsec in Frameworks */,
+				387A2CCC2AF7068B000DA445 /* Parsing in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +112,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		382EF31B2AF7BBEE00B23CE2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				382EF31C2AF7BBFF00B23CE2 /* Parser.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		386413B12AEA33C100B0BFCA = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +143,15 @@
 		386413BC2AEA33C100B0BFCA /* MathsNotebook */ = {
 			isa = PBXGroup;
 			children = (
+				382EF31B2AF7BBEE00B23CE2 /* Utilities */,
+				386413FC2AF448EF00B0BFCA /* Controllers */,
+				386413F92AF34F8300B0BFCA /* Views */,
+				386413EC2AEA794700B0BFCA /* Model */,
 				386413BD2AEA33C100B0BFCA /* MathsNotebookApp.swift */,
-				386413BF2AEA33C100B0BFCA /* ContentView.swift */,
 				386413C12AEA33C200B0BFCA /* Assets.xcassets */,
 				386413C62AEA33C200B0BFCA /* MathsNotebook.entitlements */,
 				386413C32AEA33C200B0BFCA /* Preview Content */,
+				386413EA2AEA36D700B0BFCA /* index.html */,
 			);
 			path = MathsNotebook;
 			sourceTree = "<group>";
@@ -129,6 +181,44 @@
 			path = MathsNotebookUITests;
 			sourceTree = "<group>";
 		};
+		386413EC2AEA794700B0BFCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				386413ED2AEA795700B0BFCA /* Expressions.swift */,
+				386413EF2AEB339000B0BFCA /* Propositions.swift */,
+				386413F12AEB502A00B0BFCA /* Proofs.swift */,
+				386413F32AED149D00B0BFCA /* ExpressionPrinters.swift */,
+				386413F52AEF458800B0BFCA /* ProofsRewriteRules.swift */,
+				386413F72AEF8DBB00B0BFCA /* Bindings.swift */,
+				382EF3262AFED92000B23CE2 /* Predicates.swift */,
+				382EF3292B039C1800B23CE2 /* ProofsAxiomSchemas.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		386413F92AF34F8300B0BFCA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				386413BF2AEA33C100B0BFCA /* ContentView.swift */,
+				386413E82AEA341500B0BFCA /* ProofWebView.swift */,
+				386413FA2AF34FA200B0BFCA /* CursorPadView.swift */,
+				382EF3172AF7641C00B23CE2 /* MainView.swift */,
+				382EF3192AF7647600B23CE2 /* InputView.swift */,
+				382EF3202AFC558500B23CE2 /* InputWebView.swift */,
+				382EF3222AFE477800B23CE2 /* ExpressionSelectorView.swift */,
+				382EF3242AFE47DB00B23CE2 /* RuleInputView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		386413FC2AF448EF00B0BFCA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				386413FD2AF4490200B0BFCA /* ProofSessions.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +235,10 @@
 			dependencies = (
 			);
 			name = MathsNotebook;
+			packageProductDependencies = (
+				387A2CCB2AF7068B000DA445 /* Parsing */,
+				387A2CCF2AF70B8D000DA445 /* SwiftParsec */,
+			);
 			productName = MathsNotebook;
 			productReference = 386413BA2AEA33C100B0BFCA /* MathsNotebook.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +311,10 @@
 				Base,
 			);
 			mainGroup = 386413B12AEA33C100B0BFCA;
+			packageReferences = (
+				387A2CCA2AF7068B000DA445 /* XCRemoteSwiftPackageReference "swift-parsing" */,
+				387A2CCE2AF70B8D000DA445 /* XCRemoteSwiftPackageReference "SwiftParsec" */,
+			);
 			productRefGroup = 386413BB2AEA33C100B0BFCA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				386413EB2AEA36D700B0BFCA /* index.html in Resources */,
 				386413C52AEA33C200B0BFCA /* Preview Assets.xcassets in Resources */,
 				386413C22AEA33C200B0BFCA /* Assets.xcassets in Resources */,
 			);
@@ -259,8 +358,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				382EF31A2AF7647600B23CE2 /* InputView.swift in Sources */,
+				386413F22AEB502A00B0BFCA /* Proofs.swift in Sources */,
+				382EF3182AF7641C00B23CE2 /* MainView.swift in Sources */,
+				382EF3232AFE477800B23CE2 /* ExpressionSelectorView.swift in Sources */,
+				386413F02AEB339000B0BFCA /* Propositions.swift in Sources */,
+				386413F82AEF8DBB00B0BFCA /* Bindings.swift in Sources */,
+				386413E92AEA341500B0BFCA /* ProofWebView.swift in Sources */,
+				382EF31D2AF7BBFF00B23CE2 /* Parser.swift in Sources */,
+				386413F42AED149D00B0BFCA /* ExpressionPrinters.swift in Sources */,
+				382EF32A2B039C1800B23CE2 /* ProofsAxiomSchemas.swift in Sources */,
+				382EF3252AFE47DB00B23CE2 /* RuleInputView.swift in Sources */,
+				386413F62AEF458800B0BFCA /* ProofsRewriteRules.swift in Sources */,
+				382EF3272AFED92000B23CE2 /* Predicates.swift in Sources */,
+				386413FB2AF34FA200B0BFCA /* CursorPadView.swift in Sources */,
+				382EF3212AFC558500B23CE2 /* InputWebView.swift in Sources */,
 				386413C02AEA33C100B0BFCA /* ContentView.swift in Sources */,
 				386413BE2AEA33C100B0BFCA /* MathsNotebookApp.swift in Sources */,
+				386413EE2AEA795700B0BFCA /* Expressions.swift in Sources */,
+				386413FE2AF4490200B0BFCA /* ProofSessions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +689,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		387A2CCA2AF7068B000DA445 /* XCRemoteSwiftPackageReference "swift-parsing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-parsing";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.13.0;
+			};
+		};
+		387A2CCE2AF70B8D000DA445 /* XCRemoteSwiftPackageReference "SwiftParsec" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/davedufresne/SwiftParsec";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		387A2CCB2AF7068B000DA445 /* Parsing */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 387A2CCA2AF7068B000DA445 /* XCRemoteSwiftPackageReference "swift-parsing" */;
+			productName = Parsing;
+		};
+		387A2CCF2AF70B8D000DA445 /* SwiftParsec */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 387A2CCE2AF70B8D000DA445 /* XCRemoteSwiftPackageReference "SwiftParsec" */;
+			productName = SwiftParsec;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 386413B22AEA33C100B0BFCA /* Project object */;
 }
