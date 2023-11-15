@@ -15,6 +15,7 @@
 		382EF3252AFE47DB00B23CE2 /* RuleInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EF3242AFE47DB00B23CE2 /* RuleInputView.swift */; };
 		382EF3272AFED92000B23CE2 /* Predicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EF3262AFED92000B23CE2 /* Predicates.swift */; };
 		382EF32A2B039C1800B23CE2 /* ProofsAxiomSchemas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EF3292B039C1800B23CE2 /* ProofsAxiomSchemas.swift */; };
+		382EF34A2B04D9C200B23CE2 /* Sets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EF3492B04D9C200B23CE2 /* Sets.swift */; };
 		386413BE2AEA33C100B0BFCA /* MathsNotebookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386413BD2AEA33C100B0BFCA /* MathsNotebookApp.swift */; };
 		386413C02AEA33C100B0BFCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386413BF2AEA33C100B0BFCA /* ContentView.swift */; };
 		386413C22AEA33C200B0BFCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 386413C12AEA33C200B0BFCA /* Assets.xcassets */; };
@@ -62,6 +63,7 @@
 		382EF3242AFE47DB00B23CE2 /* RuleInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleInputView.swift; sourceTree = "<group>"; };
 		382EF3262AFED92000B23CE2 /* Predicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predicates.swift; sourceTree = "<group>"; };
 		382EF3292B039C1800B23CE2 /* ProofsAxiomSchemas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofsAxiomSchemas.swift; sourceTree = "<group>"; };
+		382EF3492B04D9C200B23CE2 /* Sets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sets.swift; sourceTree = "<group>"; };
 		386413BA2AEA33C100B0BFCA /* MathsNotebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathsNotebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		386413BD2AEA33C100B0BFCA /* MathsNotebookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathsNotebookApp.swift; sourceTree = "<group>"; };
 		386413BF2AEA33C100B0BFCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 				386413F72AEF8DBB00B0BFCA /* Bindings.swift */,
 				382EF3262AFED92000B23CE2 /* Predicates.swift */,
 				382EF3292B039C1800B23CE2 /* ProofsAxiomSchemas.swift */,
+				382EF3492B04D9C200B23CE2 /* Sets.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				382EF32A2B039C1800B23CE2 /* ProofsAxiomSchemas.swift in Sources */,
 				382EF3252AFE47DB00B23CE2 /* RuleInputView.swift in Sources */,
 				386413F62AEF458800B0BFCA /* ProofsRewriteRules.swift in Sources */,
+				382EF34A2B04D9C200B23CE2 /* Sets.swift in Sources */,
 				382EF3272AFED92000B23CE2 /* Predicates.swift in Sources */,
 				386413FB2AF34FA200B0BFCA /* CursorPadView.swift in Sources */,
 				382EF3212AFC558500B23CE2 /* InputWebView.swift in Sources */,

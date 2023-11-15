@@ -77,6 +77,15 @@ class Proof {
         }
     }
     
+    // is there a better way to do this?
+    func valid(proofId: ProofId) -> Bool {
+        if let _ = info[proofId] {
+            return true
+        } else {
+            return false
+        }
+    }
+    
     // Utility functions
     func record(expressions: [Expression], as proofStep: ProofStep, at proofId: ProofId) {
         if let p_info = self.info[proofId] {

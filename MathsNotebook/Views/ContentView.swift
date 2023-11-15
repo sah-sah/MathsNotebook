@@ -8,7 +8,6 @@
 import SwiftUI
 import WebKit
 
-// TODO: Local GIT
 // TODO: Add predicates (& update parser)
 // TODO: Add sets (& update parser)
 // TODO: Add deductions (modus ponens etc)
